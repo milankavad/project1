@@ -1,0 +1,122 @@
+/* /* *{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.btnclick{
+      margin: 0 auto;
+       display: flex;
+       padding: 10px;
+       width: 120px;
+       margin-top: 30px;
+       line-height: left;
+       padding-left: 24px;
+       border: none;
+       /* color: white; */
+       /* display:  inline-block;
+       margin-left: 30px;
+       mar
+} */
+
+/* .btnclick:hover{
+    background-color: lightcoral;
+    transition: 0.6s;
+    display: inline-block;  */
+    /* transform: rotate(50deg);
+    transform: rotate(-50deg) */
+    /* transform: translate(50px,50px); */
+    /* transform: scale(0.8);
+    transform: scale(0.8,-0.4); */
+    /* transform: scale(1,3); */
+    /* transform: scaley(1.5); */
+    /* transform: scalex(2); */
+    /* transform: skew(20deg, 10deg);
+    transform: skewx(50deg,); */
+    /* transform: skewy(20deg, ); */
+    /* transform: rotate(360deg); */
+     /* transform: matrix((scalsex(),skewy(),skewX(),scaleY(),translateX(),translateY()));
+}  */ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'poppins', sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_640.jpg');
+    background-size: cover;
+    background-position: right;
+}
+.box{
+    position: relative;
+}
+.boxContainer{
+    position: relative;
+    width: 450px;
+    min-height: 400px;
+    /* background: rgba(175, 173, 173, 0.5); */
+    border: 1 px solid rgba(255, 255, 255, 0.2);
+    border-right: 1 px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1 px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 150px 150px rgba(0,0, 0, 0.2);
+}
+.form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.text{
+    text-align: end;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+}
+.form h1{
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.form .inputbox{
+    width: 100%;
+    margin-top: 20px;
+}
+.form .inputbox input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1 px solid rgba(255, 255, 255, 0.2);
+    border-right: 1 px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1 px solid rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0, 0, 0.5);
+}
+.form .inputbox label{
+    font-weight: 800;
+}
+.form .inputbox input[type="submit"]{
+    background: #4a2060;
+}

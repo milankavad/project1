@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body,html{
+    /* overflow-y:   hidden; */
+    overflow-x: hidden;
+}
+
+.horizontal{
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.text{
+    line-height: 30px;
+    /* margin-bottom: 0px; */
+}
+.form-label{
+    color: darkgray;
+}
+.btnsend{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: green;
+    color: #fff;
+}
+.footer-section {
+    /* height: 290px; */
+    background-color: rgb(21, 20, 20);
+}
+
+.font-weight-heading,
+.h3 {
+    color: #fff;
+}
+
+.link {
+    width: 80px;
+    color: rgb(238, 255, 48);
+}
+
+.footer-ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px !important;
+}
+ol, ul {
+    padding-left: 0rem !important;;
+}
+
+.footer-li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer-li a {
+    padding-left: 0px;
+    text-decoration: none;
+    font-size: none;
+    color: rgb(62, 83, 83);
+}
+
+.copyright-area {
+    height: 55px;
+    background-color: rgb(32, 32, 32);
+}
+
+.copy2 {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:320px) {
+
+    
+
+    .info1{
+      
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .p{
+
+        margin-bottom: 0px;
+    }
+    .contect-logo{
+        width: 50%;
+    }
+    
+}
+
+
+@media only screen and (max-width:375px){
+
+   
+    .info1 .p{
+      
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .p{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .gap-3{
+        font-size: 13px;
+    }
+    .food-logo{
+        width: 50%;
+    }
+  
+    
+}
