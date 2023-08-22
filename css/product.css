@@ -79,9 +79,9 @@ html {
 .footer-li a {
   text-decoration: none;
   font-size: none;
-/*   color: #fff; */
+  color: #fff;
 }
-.footer-icon,i{
+.footer-icon i{
   font-size : 30px;
   color: #fff;
   
