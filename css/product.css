@@ -79,8 +79,14 @@ html {
 .footer-li a {
   text-decoration: none;
   font-size: none;
-  color: #fff;
+/*   color: #fff; */
 }
+.footer-icon,a{
+  font-size : 30px;
+  color: #fff;
+  
+  
+[\
 .copyright-area {
   height: 55px;
   background-color: rgb(32, 32, 32);
